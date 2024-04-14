@@ -19,7 +19,7 @@ it is trained on and be able to put matching labels when the uncertainty is low 
 Our CNN model is inspired by the VGG-16 model and tailored to be able to be trained on a much smaller
 dataset. The model accepts 224x224x1 grayscale images as input and the output will be the probability
 of each image being assigned to each label. The predicted label is considered to be the label
-with the highest probability. More detail concept of our proposed model and CNN in this report ![20231_intro_ai_group_23.pdf]
+with the highest probability. More detailed concepts of our proposed model and CNN are in this report![20231_intro_ai_group_23.pdf]
 
 The model consists of 8 Convolution layers with ReLu activation followed by batchNormalization to
 perform feature extraction. The last few layers include a flattened layer, a Dense layer with ReLu
